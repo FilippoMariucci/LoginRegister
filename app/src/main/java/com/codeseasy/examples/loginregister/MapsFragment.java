@@ -31,9 +31,32 @@ public class MapsFragment extends Fragment {
          */
         @Override
         public void onMapReady(GoogleMap googleMap) {
-            LatLng sydney = new LatLng(-34, 151);
-            googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
+            LatLng donoma = new LatLng(43.30596733454052, 13.730025907938705);
+            googleMap.addMarker(new MarkerOptions().position(donoma).title("Marker in Donoma"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(donoma));
+
+
+            LatLng brahma = new LatLng(43.29531797531458, 13.735240630687098);
+            googleMap.addMarker(new MarkerOptions().position(brahma).title("Marker in Brahma"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(brahma));
+
+            LatLng la_serra = new LatLng(43.29448736298287, 13.733617946030646);
+            googleMap.addMarker(new MarkerOptions().position(la_serra).title("Marker in La Serra"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(la_serra));
+
+            LatLng le_gall = new LatLng(43.19856921167434, 13.791248130687098);
+            googleMap.addMarker(new MarkerOptions().position(le_gall).title("Marker in Le Gall Discoteca"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(le_gall));
+
+            LatLng luxury = new LatLng(43.178816670176694, 13.78422918465645);
+            googleMap.addMarker(new MarkerOptions().position(luxury).title("Marker in Luxury"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(luxury));
+
+            googleMap.setMaxZoomPreference(14.0f);
+            googleMap.setMinZoomPreference(6.0f);
+
+
         }
     };
 
