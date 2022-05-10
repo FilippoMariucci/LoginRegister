@@ -7,7 +7,7 @@
     tools:context=".donoma">
 
     <ImageView
-        android:id="@+id/donoma_pg"
+        android:id="@+id/luxury"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,7 @@
         />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/donoma_pg"
+        app:layout_constraintTop_toBottomOf="@+id/luxury"
         tools:ignore="MissingConstraints" />
 
     <ScrollView
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
         tools:ignore="MissingConstraints">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -49,7 +49,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/textView41"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -61,7 +61,7 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 tools:layout_editor_absoluteX="300dp" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textView42"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -70,22 +70,22 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 android:textColor="@android:color/black"
                 android:textSize="20dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button7"
                 android:layout_width="88dp"
                 android:layout_height="36dp"
                 android:layout_marginTop="28dp"
                 android:text="VAI"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.165"
-                app:layout_constraintStart_toEndOf="@+id/textView12"
-                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintStart_toEndOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView41"
                 tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textView43"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -94,10 +94,10 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 android:textSize="20dp"
                 android:textColor="@android:color/black"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textView44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="108dp"
@@ -107,10 +107,10 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 android:textColor="@android:color/black"
                 android:textSize="15dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                app:layout_constraintTop_toBottomOf="@+id/textView43" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textView45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
@@ -119,10 +119,10 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 android:textColor="@android:color/black"
                 android:textSize="15dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                app:layout_constraintTop_toBottomOf="@+id/textView44" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textView46"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
@@ -131,7 +131,7 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 android:textColor="@android:color/black"
                 android:textSize="15dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
 
             <fragment
                 android:id="@+id/map"
@@ -142,7 +142,7 @@ Da sottolineare la bellezza della discoteca Le Gall, del personale e la qualità
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                app:layout_constraintTop_toBottomOf="@+id/textView46"
                 tools:context=".MapsFragment" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
