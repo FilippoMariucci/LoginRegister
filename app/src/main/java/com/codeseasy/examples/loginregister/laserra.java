@@ -1,23 +1,25 @@
 
-package com.codeseasy.examples.loginregister.ui.slideshow;
 
-import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+package com.codeseasy.examples.loginregister;
 
-import com.codeseasy.examples.loginregister.R;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
+        import androidx.appcompat.app.AppCompatActivity;
 
-public class legall extends AppCompatActivity {
+        import android.os.Bundle;
+
+        import com.codeseasy.examples.loginregister.R;
+        import com.google.android.gms.maps.CameraUpdateFactory;
+        import com.google.android.gms.maps.GoogleMap;
+        import com.google.android.gms.maps.OnMapReadyCallback;
+        import com.google.android.gms.maps.model.LatLng;
+        import com.google.android.gms.maps.model.MarkerOptions;
+
+public class laserra extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_legall);
+        setContentView(R.layout.activity_laserra);
     }
 
 
@@ -35,9 +37,9 @@ public class legall extends AppCompatActivity {
         @Override
         public void onMapReady(GoogleMap googleMap) {
 
-            LatLng legall = new LatLng(43.19847535758443, 13.791033553969353);
-            googleMap.addMarker(new MarkerOptions().position(legall).title("Marker in Legall"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(legall));
+            LatLng laserra = new LatLng (43.29417890765281, 13.733612576113957);
+            googleMap.addMarker(new MarkerOptions().position(laserra).title("Marker in LaSerra"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(laserra));
 
 
             googleMap.setMaxZoomPreference(14.0f);

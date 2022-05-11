@@ -1,6 +1,5 @@
 
-
-package com.codeseasy.examples.loginregister.ui.slideshow;
+package com.codeseasy.examples.loginregister;
 
 import android.os.Bundle;
 
@@ -13,12 +12,12 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class luxury extends AppCompatActivity {
+public class legall extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_luxury);
+        setContentView(R.layout.activity_legall);
     }
 
 
@@ -36,9 +35,9 @@ public class luxury extends AppCompatActivity {
         @Override
         public void onMapReady(GoogleMap googleMap) {
 
-            LatLng luxury = new LatLng(43.178754080548046, 13.784357930687099);
-            googleMap.addMarker(new MarkerOptions().position(luxury).title("Marker in Luxury"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(luxury));
+            LatLng legall = new LatLng(43.19847535758443, 13.791033553969353);
+            googleMap.addMarker(new MarkerOptions().position(legall).title("Marker in Legall"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(legall));
 
 
             googleMap.setMaxZoomPreference(14.0f);

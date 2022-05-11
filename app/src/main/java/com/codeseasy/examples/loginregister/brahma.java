@@ -1,5 +1,5 @@
 
-package com.codeseasy.examples.loginregister.ui.slideshow;
+package com.codeseasy.examples.loginregister;
 
 import android.os.Bundle;
 

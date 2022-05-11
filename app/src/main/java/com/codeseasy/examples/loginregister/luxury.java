@@ -1,25 +1,24 @@
 
 
+package com.codeseasy.examples.loginregister;
 
-package com.codeseasy.examples.loginregister.ui.slideshow;
+import android.os.Bundle;
 
-        import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-        import android.os.Bundle;
+import com.codeseasy.examples.loginregister.R;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-        import com.codeseasy.examples.loginregister.R;
-        import com.google.android.gms.maps.CameraUpdateFactory;
-        import com.google.android.gms.maps.GoogleMap;
-        import com.google.android.gms.maps.OnMapReadyCallback;
-        import com.google.android.gms.maps.model.LatLng;
-        import com.google.android.gms.maps.model.MarkerOptions;
-
-public class laserra extends AppCompatActivity {
+public class luxury extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_laserra);
+        setContentView(R.layout.activity_luxury);
     }
 
 
@@ -37,9 +36,9 @@ public class laserra extends AppCompatActivity {
         @Override
         public void onMapReady(GoogleMap googleMap) {
 
-            LatLng laserra = new LatLng (43.29417890765281, 13.733612576113957);
-            googleMap.addMarker(new MarkerOptions().position(laserra).title("Marker in LaSerra"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(laserra));
+            LatLng luxury = new LatLng(43.178754080548046, 13.784357930687099);
+            googleMap.addMarker(new MarkerOptions().position(luxury).title("Marker in Luxury"));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(luxury));
 
 
             googleMap.setMaxZoomPreference(14.0f);
